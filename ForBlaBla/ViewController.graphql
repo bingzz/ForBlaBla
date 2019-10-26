@@ -1,0 +1,21 @@
+query Repositors($owner: String!, $name: String!) {
+    repository(owner: $owner, name: $name) {
+        issues(last: 100) {
+            edges {
+                node {
+                    ...IssueDetails
+                }
+            }
+
+        }
+    }
+}
+
+fragment IssueDetails on Issue {
+    id
+    author {
+        login
+    }
+    title
+
+}
