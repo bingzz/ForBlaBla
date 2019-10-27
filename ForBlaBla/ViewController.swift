@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 import Apollo
-//import BlaTableViewCell
 
 typealias IssueEdge = RepositorsQuery.Data.Repository.Issue.Edge
 class ViewController: UIViewController {
@@ -29,11 +28,9 @@ class ViewController: UIViewController {
             tableView.reloadData()
         }
     }
-
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var segControl: UISegmentedControl!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7709FE442361ABEE0011EC20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7709FE432361ABEE0011EC20 /* AppDelegate.swift */; };
-		7709FE462361ABEE0011EC20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7709FE452361ABEE0011EC20 /* SceneDelegate.swift */; };
 		7709FE482361ABEE0011EC20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7709FE472361ABEE0011EC20 /* ViewController.swift */; };
 		7709FE4B2361ABEE0011EC20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7709FE492361ABEE0011EC20 /* Main.storyboard */; };
 		7709FE4D2361ABEF0011EC20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7709FE4C2361ABEF0011EC20 /* Assets.xcassets */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		7709FE402361ABED0011EC20 /* ForBlaBla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForBlaBla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7709FE432361ABEE0011EC20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7709FE452361ABEE0011EC20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7709FE472361ABEE0011EC20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7709FE4A2361ABEE0011EC20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7709FE4C2361ABEF0011EC20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				7709FE432361ABEE0011EC20 /* AppDelegate.swift */,
-				7709FE452361ABEE0011EC20 /* SceneDelegate.swift */,
 				7709FE472361ABEE0011EC20 /* ViewController.swift */,
 				774627322363F32A00315F5B /* BlaTableViewCell.swift */,
 				774627332363F32A00315F5B /* BlaTableViewCell.xib */,
@@ -247,7 +244,6 @@
 				7709FE442361ABEE0011EC20 /* AppDelegate.swift in Sources */,
 				774627342363F32A00315F5B /* BlaTableViewCell.swift in Sources */,
 				7746272F236365E100315F5B /* API.swift in Sources */,
-				7709FE462361ABEE0011EC20 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +391,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2356REJM5W;
 				INFOPLIST_FILE = ForBlaBla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -414,6 +411,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2356REJM5W;
 				INFOPLIST_FILE = ForBlaBla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
